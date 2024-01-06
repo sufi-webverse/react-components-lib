@@ -9,14 +9,24 @@ import Performance from './pages/Performance';
 
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
+import Counter  from './features/counter/counter'
 
 function App() {
 
   return (
     <> 
+    <div className="App mt-2" >
+      <header className="App-header">
+        <img
+          src={`/logo.svg`}
+          className="App-logo"
+          alt="logo"
+        />
+        <Counter />
+      </header>
+    </div>
       <BrowserRouter>
         <div className='App'>
-          <Sidebar />
           <Routes>
             <Route path='/' element={<Dashboard/>} />
             <Route path='/news' element={<News/>} />
