@@ -16,9 +16,9 @@ export default function Counter() {
 
   const incrementValue = Number(incrementAmount) || 0;
 
-  setInterval(function(){
-    dispatch(decrement());
-  }, 1000)
+  // setInterval(function(){
+  //   dispatch(decrement());
+  // }, 1000)
 
   return (
     <div>
