@@ -7,7 +7,7 @@ function SendMoney() {
         <input />
 
         <div className='d-flex align-items-center justify-content-center'>
-
+            
         </div>
     </div>
   )
